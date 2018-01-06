@@ -1,0 +1,24 @@
+1) Three Phase Diode Rectifier (6 pack)
+
+400V 20A
+
+2) DC-DC Converter (Buck)
+540V 20A
+
+MOSFET 540V 17A
+Inductor (core+copper wire wounded by hand) = 150 - 200 uH
+Capacitor ( 680uF)
+
+3) PWM generation - (Arduino-Uno)
+
+4) Air forced thermal cooling for MOSFET
+
+R<(125-25)C/400W R<0.4 C/W
+
+5) Heatsink for Capacitor, Mosfet, ac/dc converter
+
+R<(125-25)C/400W R<0.4 C/W
+
+6) Battery for controller
+
+power supplied by USB?
