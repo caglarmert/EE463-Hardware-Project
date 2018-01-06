@@ -7,7 +7,7 @@
 
 MOSFET 540V 17A
 Inductor (core+copper wire wounded by hand) = 150 - 200 uH
-Capacitor ( 680uF)
+Capacitor ( 680uF) (Film capacitor)
 
 3) PWM generation - (Arduino-Uno)
 
