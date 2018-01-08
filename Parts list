@@ -6,8 +6,8 @@
 540V 20A
 
 MOSFET 540V 17A
-Inductor (core+copper wire wounded by hand) = 150 - 200 uH
-Capacitor ( 680uF) (Film capacitor)
+Inductor (core+copper wire wounded by hand) = 150 - 200 uH (on simulation 220 mH)
+Capacitor ( 680uF) (Film capacitor) (on simulation 1 mF)
 
 3) PWM generation - (Arduino-Uno)
 
@@ -23,3 +23,6 @@ R<(125-25)C/400W R<0.4 C/W
 
 power supplied by USB?
 (power bank'lar uno'yu çalıştırıyor.)
+
+PCB sormayı unutmayalım
+
