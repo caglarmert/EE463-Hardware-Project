@@ -1,0 +1,35 @@
+1)	INTRODUCTION
+I.	Introduction to Power Electronics
+Power electronics are a relatively new electronic development area. Basic electronics include inductors capacitors and various transistors; however, these electronics are widely used under 5-20Volts and never exceed 1-2 Amperes of current drawn.  
+Contemporary advancements in power electronics area enabled usage of high voltage rating electronic components. MOSFETs that can withstand hundreds of volts and Amperes, Capacitors that are bigger than commercial automobiles are a few examples of power electronics area. 
+A professional interest in power electronics area is the concept of converters. These converters can be categorized but not limited to AC-DC converters and DC-DC converters, also there are filter elements and gate drive elements that accompany power electronics. Filter elements are much like in circuits and systems theory but with larger capacitor and inductor components and much less stages (generally only one stage).
+
+II.	Introduction to Project
+Gate drives are much complicated in power electronics, now we are combining relatively very high voltages and currents and very low voltages and currents. Gate drives such as optocoupler, Arduino microprocessor unit and such require 5-10 V to operate and draw 20-30 mA, while these components operate at these ratings power electronics and motors in the scope of this project are rated with 400-600Volts and 10-20Amperes. Even a fraction of these ratings will cause volatile destruction on drive elements.
+
+2)	DESCRIPTION
+I.	Problem Description
+We are tasked to operate a DC motor with following ratings:
+
+The aforementioned DC motor is to be operated with the following grid:
+
+The grid and DC motor will be connected through our power electronic project.
+II.	Possible Solutions
+i.	3-Phase Thyristor Rectifier
+Three phase thyristor rectifier requires a zero-crossing detection device and phase lag gate signals.
+ii.	1-Phase Thyristor Rectifier
+One phase thyristor rectifier gives comparably low voltage to three phase, this will create extensive load to DC-DC converter side, also one phase thyristor bridge requires 4 thyristors while three phase requires just 2 more (6 total). 
+iii.	Diode Rectifier + Buck Converter
+Diode rectifier is uncontrolled AC-DC converter, its output has high ripple but 6 pack diode rectifier is a robust design alternative. After diode rectifier there needs to be a controlled buck converter that will decrease the Vdc.
+
+III.	Solution Approach
+We aim to accomplish the given task with Diode bridge rectifier and Buck converter.
+3)	SIMULATIONS
+I.	AC-DC Diode Bridge Converter
+II.	DC-DC Buck Converter
+III.	Overall System Design
+IV.	Heat dissipation and Heatsinks
+4)	EXPERIMENTAL RESULTS
+5)	DEMONSTRATION
+6)	REFERENCES
+7)	APPENDICES
