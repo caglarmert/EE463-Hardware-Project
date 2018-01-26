@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="Project Story" themeId="0" version="65540" templateID="SimpleProjectTemplate">
+<Project name="Project Trailer" themeId="0" version="65540" templateID="SimpleProjectTemplate">
   <MediaItems>
     <MediaItem id="17" filePath="D:\Work\EE 463\Videos\inverter_giusta.jpg" arWidth="725" arHeight="400" duration="0" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="2" />
     <MediaItem id="1" filePath="D:\Work\EE 463\Videos\2.mp4" arWidth="848" arHeight="480" duration="18.246666600000001" songTitle="" songArtist="" songAlbum="" songCopyrightUrl="" songArtistUrl="" songAudioFileUrl="" stabilizationMode="0" mediaItemType="1" />
