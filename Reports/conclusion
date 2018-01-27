@@ -1,0 +1,6 @@
+Overall, this project was quite teaching and fun. We learned the basics of designing a three-phase AC-to-DC converter. along the way, we encountered many difficulties and while getting through them, we learned a lot. During the building process, we practiced our soldering skills, got really familiar with simulink during the simulations, learned that we needed huge heat sinks to dissipate the heat that we produce on the MOSFET, when we couldn't drive the MOSFET with the voltage from Arduino, we decided to use optocoupler.
+
+Our design consisted of a three-phase diode rectifier and a cascaded with a buck converter. the diode bridge was quite easy to make because we simply bought it off the market. At the end of the three-phase diode converter, we had a 1 mF capacitor to smoothen the output voltage. after the diode rectifier adn the capacitor, we placed the buck converter. The converter used a MOSFET as a switch and it was controlled via a bootleg arduino uno. Since arduino is not enough to provide the required Vgs, we used an optocoupler and an outside DC source to obtain the required Vgs.
+
+To sum up, we had a chance the to incorporate all the good stuff we learned during the semester into our project and while doing it, we had a lot of fun. We even made tea with the load connected to our motor.
+
