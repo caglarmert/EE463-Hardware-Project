@@ -1,0 +1,18 @@
+
+We are tasked to operate a DC motor with following ratings:
+
+2.8 kW power
+220 Volts
+1500 RPM Speed
+12.7 Amperes Current
+Compound Winding
+Armature Winding: 28 Ω, 13.3 mH
+Series Winding: 65 mΩ, 260 uH
+Shunt Winding: 8.26 kΩ, 6.4 H
+Interpoles Winding: 0.8 Ω, 5.8 mH
+
+The aforementioned DC motor is to be operated with the following grid:
+
+Up to 400 Vll three-phase AC voltage source 
+
+The grid and DC motor will be connected through our power electronic project.
