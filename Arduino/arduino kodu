@@ -1,0 +1,14 @@
+int potentiometerPin = A2; 
+void setup() {
+  // put your setup code here, to run once:
+Serial.begin(9600);
+TCCR0B = TCCR0B & 0b11111000 | 0x02;
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  int potValue = analogRead(potentiometerPin);
+  int fadeValue = map(potValue, 0, 1023, 0, 255); 
+Serial.println(potValue);
+analogWrite(6, fadeValue);
+delay (10);
