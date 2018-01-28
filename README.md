@@ -4,6 +4,10 @@
 
 ### Deadline: TBA (After the finals)
 
+Project trailer link:
+
+https://www.youtube.com/watch?v=PyMzq8Eca7o
+
 
 In this project you are required to make a controlled rectifier that will be used to drive a DC Motor.
 
